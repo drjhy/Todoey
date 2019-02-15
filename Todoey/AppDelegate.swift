@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
  
         
         do{
-            _ = try! Realm()
+            _ = try Realm()
             
         } catch {
             
